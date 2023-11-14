@@ -21,7 +21,7 @@ public class C01 extends TestBase {
 
 
 
-    // Click 'Create Account button'
+
     // Verify that 'ACCOUNT CREATED!' is visible
     // Click 'Continue' button
     // Verify that 'Logged in as username' is visible
@@ -122,12 +122,13 @@ public class C01 extends TestBase {
         waitForSecond(1);
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         // Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number
+        // Click 'Create Account button'
         String name3 = faker.name().fullName();
 
         WebElement fillAll = driver.findElement(By.xpath("//*[@id='first_name']"));
         fillAll.sendKeys(name3,Keys.TAB,
                 faker.name().lastName(),
-                Keys.TAB,faker.company().name());
+                Keys.TAB,faker.company().name(),Keys.TAB);
 
         waitForSecond(1);
         actions.sendKeys(Keys.PAGE_DOWN).perform();
@@ -142,12 +143,30 @@ public class C01 extends TestBase {
         city.sendKeys("5");
         city.click();
 
+        String state2 = faker.address().state();
+        WebElement state = driver.findElement(By.xpath("(//*[@class='form-control'])[13]"));
+
+         WebElement adress = driver.findElement(By.xpath("(//*[@class='form-control'])[10]"));
+        waitForSecond(1);
+        actions.moveToElement(adress);
+        waitForSecond(1);
+        actions.sendKeys(Keys.PAGE_DOWN);
+
+        state.sendKeys(state2,Keys.TAB,
+                faker.address().city(),
+                Keys.TAB,faker.address().fullAddress(),
+                Keys.TAB,faker.address().secondaryAddress(),
+                Keys.TAB, faker.phoneNumber().cellPhone(),
+                Keys.TAB, Keys.ENTER);
 
 
 
 
-       //
-       //
+
+
+
+
+
 
 
 
