@@ -50,7 +50,22 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.C01.test01">
+    <configuration name="C01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MySeleniumPractices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyPractices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MyPractices" />
+      <option name="MAIN_CLASS_NAME" value="MyPractices.C01" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumPractices" />
       <extension name="coverage">
@@ -70,6 +85,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.C01.test01" />
+        <item itemvalue="JUnit.C01" />
       </list>
     </recent_temporary>
   </component>

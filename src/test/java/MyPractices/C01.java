@@ -22,9 +22,9 @@ public class C01 extends TestBase {
 
 
 
-    // Verify that 'ACCOUNT CREATED!' is visible
-    // Click 'Continue' button
-    // Verify that 'Logged in as username' is visible
+
+
+
     // Click 'Delete Account' button
     // Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
 
@@ -128,7 +128,7 @@ public class C01 extends TestBase {
         WebElement fillAll = driver.findElement(By.xpath("//*[@id='first_name']"));
         fillAll.sendKeys(name3,Keys.TAB,
                 faker.name().lastName(),
-                Keys.TAB,faker.company().name(),Keys.TAB);
+                Keys.TAB,faker.company().name(),Keys.TAB,faker.address().streetAddress());
 
         waitForSecond(1);
         actions.sendKeys(Keys.PAGE_DOWN).perform();
@@ -154,10 +154,30 @@ public class C01 extends TestBase {
 
         state.sendKeys(state2,Keys.TAB,
                 faker.address().city(),
-                Keys.TAB,faker.address().fullAddress(),
                 Keys.TAB,faker.address().secondaryAddress(),
                 Keys.TAB, faker.phoneNumber().cellPhone(),
                 Keys.TAB, Keys.ENTER);
+
+
+       //Verify that 'ACCOUNT CREATED!' is visible
+      String actualCreatedSuccess = driver.findElement(By.xpath("//b")).getText();
+      String acceptedCreatedSucces = "ACCOUNT CREATED!";
+
+      Assert.assertEquals(actualCreatedSuccess,acceptedCreatedSucces);
+
+
+     // Click 'Continue' button
+      driver.findElement(By.xpath("//*[@data-qa='continue-button']")).click();
+
+
+     // Verify that 'Logged in as username' is visible
+     WebElement loggedIn = driver.findElement(By.xpath("//b"));
+
+     Assert.assertTrue(loggedIn.isEnabled());
+
+     // Click 'Delete Account' button
+
+
 
 
 
