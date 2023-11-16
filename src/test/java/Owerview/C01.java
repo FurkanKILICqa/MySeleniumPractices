@@ -1,4 +1,4 @@
-package MyPractices;
+package Owerview;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
 import utilities.TestBase;
 
-public class C05_Owerview extends TestBase {
+public class C01 extends TestBase {
 
 
     @Test
