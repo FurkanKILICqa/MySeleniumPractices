@@ -19,7 +19,8 @@ public class C03 extends TestBase {
         //- Çıkan ekrana istediğiniz çizgi yada şekli çiziniz
        WebElement drowing = driver.findElement(By.xpath("//*[@style='touch-action: none; user-select: none;']"));
         Actions actions = new Actions(driver);
-        actions.clickAndHold(drowing).moveByOffset(48,120).release(drowing).perform();
+        actions.clickAndHold(drowing).moveByOffset(200,120).moveByOffset(120,120).
+                release(drowing).perform();
 
 
 

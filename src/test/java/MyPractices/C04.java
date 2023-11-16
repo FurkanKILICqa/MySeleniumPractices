@@ -11,14 +11,6 @@ import java.util.List;
 public class C04 extends TestBase {
 
 
-
-
-
-
-    //5.Dropdown’un boyutunu bulun, Dropdown’da 4 öğe varsa konsolda True , degilse
-    //False yazdırın.
-
-
     @Test
     public void test01() {
 
