@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c340645-29d9-4970-a793-6b62b0fb2453" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/MyPractices/C02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MyPractices/C01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyPractices/C01.java" afterDir="false" />
     </list>
@@ -50,7 +51,7 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C01.test01">
+  <component name="RunManager" selected="JUnit.C02.test01">
     <configuration name="C01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumPractices" />
       <extension name="coverage">
@@ -82,8 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C02.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MySeleniumPractices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyPractices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MyPractices" />
+      <option name="MAIN_CLASS_NAME" value="MyPractices.C02" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02.test01" />
         <item itemvalue="JUnit.C01.test01" />
         <item itemvalue="JUnit.C01" />
       </list>
