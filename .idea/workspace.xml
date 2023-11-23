@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c340645-29d9-4970-a793-6b62b0fb2453" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Owerview/C02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Owerview/C03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TeamPractice/Practice01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TeamPractice/Practice02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/recources/Başlıksız e-tablo.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/recources/Capitals.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/recources/mysmoketestdata.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyPractices/C05_Owerview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Owerview/C01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -39,94 +45,104 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/hpvic/IdeaProjects/MySeleniumPractices/src/test/java/recources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hpvic\IdeaProjects\MySeleniumPractices\src\test\java\recources" />
+      <recent name="C:\Users\hpvic\IdeaProjects\MySeleniumPractices\src\test\java\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hpvic\IdeaProjects\MySeleniumPractices\src\test\java\recources" />
+      <recent name="C:\Users\hpvic\IdeaProjects\MySeleniumPractices\src\test\java\zrecources" />
+      <recent name="C:\Users\hpvic\IdeaProjects\MySeleniumPractices\src\test\java\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02.test01 (1)">
+  <component name="RunManager" selected="JUnit.Practice01.test01">
     <configuration name="C01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumPractices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Owerview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Owerview" />
-      <option name="MAIN_CLASS_NAME" value="Owerview.C01" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MySeleniumPractices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Owerview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Owerview" />
-      <option name="MAIN_CLASS_NAME" value="Owerview.C02" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MySeleniumPractices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Owerview.*" />
+          <option name="PATTERN" value="MyPractices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="MyPractices" />
-      <option name="MAIN_CLASS_NAME" value="MyPractices.C03" />
+      <option name="MAIN_CLASS_NAME" value="MyPractices.C01" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_ExcelTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumPractices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Owerview.*" />
+          <option name="PATTERN" value="SeleniumTekakr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MyPractices" />
-      <option name="MAIN_CLASS_NAME" value="MyPractices.C04" />
+      <option name="PACKAGE_NAME" value="SeleniumTekakr" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTekakr.C03_ExcelTest" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C05_WriteExcel.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumPractices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Owerview.*" />
+          <option name="PATTERN" value="SeleniumTekakr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MyPractices" />
-      <option name="MAIN_CLASS_NAME" value="MyPractices.C04" />
+      <option name="PACKAGE_NAME" value="SeleniumTekakr" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTekakr.C05_WriteExcel" />
       <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MySeleniumPractices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TeamPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TeamPractice" />
+      <option name="MAIN_CLASS_NAME" value="TeamPractice.Practice01" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice02.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MySeleniumPractices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TeamPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TeamPractice" />
+      <option name="MAIN_CLASS_NAME" value="TeamPractice.Practice02" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C02.test01 (1)" />
+        <item itemvalue="JUnit.Practice01.test01" />
+        <item itemvalue="JUnit.Practice02.test01" />
         <item itemvalue="JUnit.C01.test01" />
-        <item itemvalue="JUnit.C03.test01" />
-        <item itemvalue="JUnit.C04.test01" />
-        <item itemvalue="JUnit.C04.test02" />
+        <item itemvalue="JUnit.C05_WriteExcel.test02" />
+        <item itemvalue="JUnit.C03_ExcelTest.test01" />
       </list>
     </recent_temporary>
   </component>
