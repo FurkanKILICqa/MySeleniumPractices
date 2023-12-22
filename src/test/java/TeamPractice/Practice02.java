@@ -13,6 +13,8 @@ public class Practice02 extends TestBase {
     @Test
     public void test01() {
 
+
+        extentTest=extentReports.createTest("Automation Exercise","Test Case 04");
         //Navigate to url 'http://automationexercise.com'
         driver.get("http://automationexercise.com");
 
@@ -33,9 +35,10 @@ public class Practice02 extends TestBase {
 
         //Verify that user is navigated to brand page and brand products are displayed
        WebElement poloBrand = driver.findElement(By.xpath("//*[@class='title text-center']"));
+       WebElement HM = driver.findElement(By.xpath("//a[@href='/brand_products/H&M']"));
        poloBrand.isDisplayed();
-       waitForSecond(1);
-       actions.sendKeys(Keys.PAGE_DOWN).perform();
+       actions.scrollToElement(HM).perform();
+
 
 
         //On left side bar, click on any other brand link

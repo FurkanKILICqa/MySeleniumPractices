@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c340645-29d9-4970-a793-6b62b0fb2453" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Owerview/C03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TeamPractice/Practice01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TeamPractice/Practice02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/recources/Başlıksız e-tablo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/recources/Capitals.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/recources/mysmoketestdata.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MyPractices/C05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MyPractices/C06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MyPractices/C07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TeamPractice/Practice01WithError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TeamPractice/Practice03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyPractices/C02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyPractices/C02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TeamPractice/Practice01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TeamPractice/Practice01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TeamPractice/Practice02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TeamPractice/Practice02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +48,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/hpvic/IdeaProjects/MySeleniumPractices/src/test/java/recources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hpvic/IdeaProjects/MySeleniumPractices/src/test/java/recources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hpvic\IdeaProjects\MySeleniumPractices\src\test\java\recources" />
@@ -67,8 +70,8 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice01.test01">
-    <configuration name="C01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Practice03.name">
+    <configuration name="C05.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumPractices" />
       <extension name="coverage">
         <pattern>
@@ -77,46 +80,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="MyPractices" />
-      <option name="MAIN_CLASS_NAME" value="MyPractices.C01" />
+      <option name="MAIN_CLASS_NAME" value="MyPractices.C05" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_ExcelTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C05.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumPractices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumTekakr.*" />
+          <option name="PATTERN" value="MyPractices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTekakr" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTekakr.C03_ExcelTest" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="MyPractices" />
+      <option name="MAIN_CLASS_NAME" value="MyPractices.C05" />
+      <option name="METHOD_NAME" value="test05" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_WriteExcel.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MySeleniumPractices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTekakr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTekakr" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTekakr.C05_WriteExcel" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice03.deneme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumPractices" />
       <extension name="coverage">
         <pattern>
@@ -125,14 +112,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TeamPractice" />
-      <option name="MAIN_CLASS_NAME" value="TeamPractice.Practice01" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="MAIN_CLASS_NAME" value="TeamPractice.Practice03" />
+      <option name="METHOD_NAME" value="deneme" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice02.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice03.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumPractices" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +128,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TeamPractice" />
-      <option name="MAIN_CLASS_NAME" value="TeamPractice.Practice02" />
+      <option name="MAIN_CLASS_NAME" value="TeamPractice.Practice03" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice03.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MySeleniumPractices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TeamPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TeamPractice" />
+      <option name="MAIN_CLASS_NAME" value="TeamPractice.Practice03" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -150,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Practice01.test01" />
-        <item itemvalue="JUnit.Practice02.test01" />
-        <item itemvalue="JUnit.C01.test01" />
-        <item itemvalue="JUnit.C05_WriteExcel.test02" />
-        <item itemvalue="JUnit.C03_ExcelTest.test01" />
+        <item itemvalue="JUnit.Practice03.name" />
+        <item itemvalue="JUnit.Practice03.test01" />
+        <item itemvalue="JUnit.Practice03.deneme" />
+        <item itemvalue="JUnit.C05.test05" />
+        <item itemvalue="JUnit.C05.test01" />
       </list>
     </recent_temporary>
   </component>
